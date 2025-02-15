@@ -1,0 +1,75 @@
+/* index.css */
+body {
+    background-image: url('./assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 850px;
+  }
+  .CardBody{
+    /* border: 5px solid red; */
+    width: 850px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+  }
+  
+  .todo-header {
+    position: relative;
+    top: 35px;
+    left: 30px;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    width: 195px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-card {
+    /* border: 5px solid red; */
+    position: relative;
+    top: 150px;
+    left: 45px;
+    background-color: rgba(195, 189, 189, 0.007);
+    color: white !important;
+    padding: 10px;
+    border-radius: 8px;
+    width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.547);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s;
+  }
+  .todo-card:hover,
+  .todo-card.touch-active {
+    background-color: rgba(195, 189, 189, 0.2);
+  }
+  
+  .todo-text {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.rem;
+    font-weight: lighter;
+    flex-grow: 1; 
+    margin-left: 10px;
+  }
+  
+  .Pending {
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  }
+  
